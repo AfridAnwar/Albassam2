@@ -2677,9 +2677,9 @@ img.left {
 }
 
 .gr-purple-red-bg {
-  background-image: -webkit-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: -o-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+  background-image: -webkit-linear-gradient(340deg, #f8cd46 0%, #312112 100%);
+  background-image: -o-linear-gradient(340deg, #f8cd46 0%, #312112 100%);
+  background-image: linear-gradient(110deg, #f8cd46 0%, #312112 100%);
 }
 
 .gr-purple-red-bg.shadow-gr {
@@ -2688,9 +2688,9 @@ img.left {
 }
 
 .gr-purple-red-text {
-  background-image: -webkit-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: -o-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+  background-image: -webkit-linear-gradient(340deg, #f8cd46 0%, #312112 100%);
+  background-image: -o-linear-gradient(340deg, #f8cd46 0%, #312112 100%);
+  background-image: linear-gradient(110deg, #f8cd46 0%, #312112 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4075,9 +4075,12 @@ img.left {
   font-size: 50px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .5s, visibility .5s;
-  -o-transition: opacity .5s, visibility .5s;
-  transition: opacity .5s, visibility .5s;
+  -webkit-transition: opacity .5s,
+ visibility .5s;
+  -o-transition: opacity .5s,
+ visibility .5s;
+  transition: opacity .5s,
+ visibility .5s;
 }
 
 .slider .parallax-slider .caption p {
