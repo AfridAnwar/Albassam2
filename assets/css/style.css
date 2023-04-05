@@ -3852,7 +3852,7 @@ img.left {
 }
 
 .navbar .logo {
-  width: 70px;
+  width: 300px;
 }
 
 .navbar .search-area {
@@ -10477,7 +10477,7 @@ body.index-main .bg-gray {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 300px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -11017,7 +11017,7 @@ body.index-main .bg-gray {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 40px;
+    width: 239px;
   }
   .fw-700 {
     font-weight: 600 !important;
