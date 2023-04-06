@@ -11195,4 +11195,8 @@ body.index-main .bg-gray {
 .js-center{
   justify-content: center;
 }
+.cuz-img-w{
+  width: 95%;
+  border-radius: 10px;
+}
 /* ends */
