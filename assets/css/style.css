@@ -3640,7 +3640,7 @@ img.left {
   padding: 0;
   margin: 0;
   width: 100%;
-  background: transparent;
+  background: linear-gradient(14deg, #ffffff57, transparent);
   border-bottom: 2px solid transparent;
   z-index: 999;
   min-height: 80px;
@@ -10121,7 +10121,7 @@ footer.main-footer .top-links ul li {
 }
 
 footer.main-footer .clumn .logo {
-  max-width: 100px;
+  max-width: 385px;
 }
 
 footer.main-footer .clumn ul {
@@ -11184,3 +11184,13 @@ body.index-main .bg-gray {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+/* custome css */
+.cuz-ds-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.js-center{
+  justify-content: center;
+}
+/* ends */
