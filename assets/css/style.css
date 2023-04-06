@@ -5810,7 +5810,7 @@ header.simple-header .path a:after {
 }
 
 .services .item-box:hover .icon-bord-shad i {
-  background: #3b3f82;
+  background: #fcdb72;
 }
 
 .services .icon-bord-shad {
@@ -5842,10 +5842,12 @@ header.simple-header .path a:after {
   transition: all .4s;
 }
 
-.services .icon-bord-shad span {
+.services .icon-bord-shad img {
   font-size: 28px;
   position: relative;
   line-height: inherit;
+  filter: invert(1);
+  width: 50%;
   z-index: 2;
 }
 
@@ -10297,7 +10299,7 @@ body.startup .main-color {
 }
 
 body.cr-agency {
-  color: #3b3f82;
+  color: black;
 }
 
 body.cr-agency p {
@@ -10321,7 +10323,7 @@ body.cr-agency .bg-blck {
 }
 
 body.cr-agency [data-overlay-dark]:before {
-  background: #2c3467;
+  background: #15171f;
 }
 
 body.cr-agency .states ul .sd-color {
