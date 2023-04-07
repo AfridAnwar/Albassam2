@@ -1,59 +1,7 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Ravo
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
-
-== Table Of Content
-
-    |--- BASE
-
-        |- utility
-        |- typography
-        |- helper classes
-
-    |--- SHORTCODES
-
-        |- extra
-        |- overlay
-        |- section-heading
-        |- buttons
-        |- navbar
-        |- sliders
-        |- intro
-        |- feature-box
-        |- clients
-        |- counter
-        |- portfolio
-        |- process
-        |- progress-bar
-        |- tabs
-        |- team
-        |- testimonials
-        |- blog
-        |- contact-form
-        |- footers
-
-    |--- BASE
-
-        |- Colors Skin
 
 
-    |--- BASE
 
-        |- responsive
-	
-
-
----------------------------------------------------------------- */
-/* ====================== [ Start Utility  ] ====================== */
 @media screen and (max-width: 768px) {
   .container, .container-md, .container-sm {
     max-width: 720px;
@@ -476,6 +424,7 @@ img.left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .horizontal-link li {
@@ -5385,7 +5334,7 @@ header.simple-header .path a:after {
 
 .intro-out-box .img .svg-color {
   position: absolute;
-  top: 50%;
+  top: 41%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
@@ -5397,6 +5346,7 @@ header.simple-header .path a:after {
 .intro-out-box .img img {
   position: relative;
   z-index: 3;
+  border-radius: 10px;
 }
 
 .intro-up .container {
@@ -11065,9 +11015,16 @@ body.index-main .bg-gray {
     font-size: 30px;
   }
   .intro-out-box .img .svg-color {
-    width: 100%;
+    /* previous Value */
+    /* width: 100%;
     height: 100%;
-    top: 50px;
+    top: 50px; */
+/* ends */
+/* updated by Codie123 */
+    width: 80%;
+    height: 0%;
+    top: -249px;
+    /* ends */
   }
   .hero-cr .img-exp .img {
     height: 200px;
@@ -11136,8 +11093,20 @@ body.index-main .bg-gray {
   .contact-crv .box-shadow {
     padding: 50px 20px;
   }
-}
 
+}
+@media(max-width:769px){
+    /* updated by Codie123 */
+    .intro-out-box .img{
+      padding: 0;
+    }
+    /* ends */
+}
+@media(max-width:650px){
+  .intro-out-box .img .svg-color{
+    top: -171px;
+  }
+}
 @media screen and (max-width: 480px) {
   .hero-cir .th-cir {
     width: auto;
@@ -11184,7 +11153,11 @@ body.index-main .bg-gray {
     margin: 30px auto;
   }
 }
-
+@media(max-width:426px){
+  .intro-out-box .img .svg-color{
+    top: -91px;
+  }
+}
 /* ====================== [ End Responsive ] ====================== */
 
 /* custome css */
@@ -11199,4 +11172,8 @@ body.index-main .bg-gray {
   width: 95%;
   border-radius: 10px;
 }
+
+
+
+
 /* ends */
