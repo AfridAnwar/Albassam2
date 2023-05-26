@@ -3801,7 +3801,7 @@ img.left {
 }
 
 .navbar .logo {
-  width: 300px;
+  width: 75px;
 }
 
 .navbar .search-area {
@@ -10073,7 +10073,7 @@ footer.main-footer .top-links ul li {
 }
 
 footer.main-footer .clumn .logo {
-  max-width: 385px;
+  /* max-width: 385px; */
 }
 
 footer.main-footer .clumn ul {
@@ -10429,7 +10429,7 @@ body.index-main .bg-gray {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 300px;
+    width: 75px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -10969,7 +10969,7 @@ body.index-main .bg-gray {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 239px;
+    width: 75px;
   }
   .fw-700 {
     font-weight: 600 !important;
